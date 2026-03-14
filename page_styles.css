@@ -1,0 +1,111 @@
+/* ABOUT PAGE */
+p#p1, p#p2, p#p3, p#p4, p#p5 {
+	text-indent: 50px;
+	font-family: 'DM Sans';
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	text-align: justify;
+	line-height: 1.5rem;
+}
+
+P#about-paragraphs {
+	margin-top: 50px;
+}
+
+/* SHOWCASE PAGE */
+main nav#showcase ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 10px;     
+}
+
+main nav#showcase ul li {
+    display: flex;
+    flex-basis: 35%;
+    justify-content: center;
+    align-content: center;
+}
+
+main nav#showcase ul li a {
+    display: flex; 
+    width: 100%;
+    height: 100%;
+    align-content: center;   
+}
+
+main nav#showcase ul li img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* CONTACT PAGE */
+main.contact {
+    display: flex;
+    flex-basis: 75%;
+    justify-content: center;
+    height: 100%;
+}
+
+form {
+    background-color: #1C1C1E;
+    color: #d4bfa1;
+    display: flex;
+    flex-flow: column;
+    flex-basis: 50%;
+    border: 2px solid #1C1C1E;
+    height: 95%;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+}
+
+label, input {
+    align-self: start;
+}
+
+textarea {
+    height: 95%;
+    width: 99%;
+    margin-bottom: 5px;
+    resize: none;
+}
+
+input {
+    width: 35%;
+    align-self: start;
+}
+
+input#submission {
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+input#submission:hover {
+    color: #00FF00;
+}
+
+label#messagelabel {
+    font-size: 24px;
+    align-self: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+div.form-vertical {
+    display: flex;
+    flex-flow: column;
+    align-self: start;
+    justify-content: start;
+    width: 100%;
+    gap: 5px;
+}
+
+.labels {
+    display: flex;
+    flex-flow: row;
+    gap: 5px;
+}

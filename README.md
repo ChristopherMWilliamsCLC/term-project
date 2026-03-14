@@ -1,2 +1,1 @@
-# term-project
-Github page for portfolio website. 
+# Christopher Williams - CIT174 Project
