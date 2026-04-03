@@ -1,0 +1,92 @@
+/* ABOUT PAGE */
+.about-text {
+	text-indent: 50px;
+	font-family: 'DM Sans';
+    margin: 0 auto;
+	width: 90%;
+    max-width: 800px;
+	text-align: justify;
+	line-height: 1.5rem;
+    text-indent: 50px;
+}
+
+div#about-paragraphs {
+	margin-top: 50px;
+}
+
+/* SHOWCASE PAGE */
+main nav#showcase ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+
+/* CONTACT PAGE */
+main.contact {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+}
+
+form {
+    background-color: #1C1C1E;
+    color: #d4bfa1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #1C1C1E;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+label {
+    align-self: flex-start;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+#submission {
+    width: 40%;
+    align-self: center;
+    cursor: pointer;
+}
+
+#submission:hover {
+    color: #00FF00;
+}
+
+#messagelabel {
+    font-size: 24px;
+    align-self: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.form-vertical {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.labels {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}

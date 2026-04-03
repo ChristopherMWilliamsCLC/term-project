@@ -1,0 +1,165 @@
+/* color: #d4bfa1; - warmsand
+   color: #00FF00; - lime accent
+   color: #1C1C1E; - charcoal
+*/
+
+/* GENERAL STYLES */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #d4bfa1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+}
+
+main {
+    flex: 1;
+    margin-top: 1rem;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+nav.horizontal ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    padding: 0;
+    background-color: #1C1C1E;
+}
+
+nav.horizontal ul li {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+nav.horizontal ul li a {
+    display: flex;
+    flex-grow: 1;
+    color: #d4bfa1;
+    font-family: Figtree;
+    justify-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.horizontal ul li a:hover {
+    background-color: #00FF00;
+}
+
+body main article h1 {
+    border: 2px solid #1C1C1E;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 75%;
+    font-family: 'DM Sans';
+    color: #1C1C1E;
+    line-height: 1.5;
+}
+
+footer {
+    width: 100%;
+    background-color: #1C1C1E;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+footer nav.vertical {
+    color: #1C1C1E;
+}
+
+footer nav.vertical ul {
+    padding: 0;
+    list-style-type: none;
+    color: #d4bfa1;
+}
+
+footer nav.vertical ul li a {
+    margin-left: auto;
+    margin-right: auto;
+    color: #d4bfa1;
+    font-family: Figtree;
+    text-decoration: none;
+}
+
+footer nav.vertical ul li a:hover {
+    background-color: #00FF00;
+}
+
+/* MEDIA DEVICES */
+@media (max-width: 768px) {
+    main.contact {
+        flex-direction: column;
+    }
+
+    form {
+        width: 95%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    main nav#showcase {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    main nav#showcase ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main nav#showcase ul li {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
